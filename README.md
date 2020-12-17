@@ -16,3 +16,5 @@
 * 網格計算：提供使用者在執行多項任務時，能同時針對不同的影像圖層，進行數學方程式的邏輯運算，使原本的多張影像圖層，轉變為另一張影像圖層資料。
  
 
+## 參考資料
+* http://www.geog.ucsb.edu/~sgao/data/SpatialDataAnalysisPython.pdf
