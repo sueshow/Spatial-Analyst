@@ -18,6 +18,7 @@
 # GPS vs. LBS
 * GPS (Global Positioning System，全球定位系統)
   * 優點：
+    * 定位精確，誤差在5米以內的定位
   * 缺點：
     * 只有在能看得到天空的地方接收信號，其他地方比如高樓密集的城市、高架橋下、室內等無法接收到GPS信號或者是信號很差
     * 容易受天氣影響
@@ -25,7 +26,8 @@
   * 優點：
     * 方便、成本低，理論上，計算三個基站的信號差異，就可以判斷出該設備所在的位置，而不受天氣、高樓、位置等影響
   * 缺點：
-    * 定位精度雖然不及GPS
+    * 定位精度不及GPS
+    * 使用範圍較窄
     * 定位精度隨所處位置基站數不同會有變化，基站數越大，誤差越小
 
 
@@ -33,4 +35,4 @@
 
 ## 參考資料
 * http://www.geog.ucsb.edu/~sgao/data/SpatialDataAnalysisPython.pdf
-* GPS vs. LBS：https://kknews.cc/zh-tw/tech/9ym8xmq.html
+* GPS vs. LBS：https://kknews.cc/zh-tw/tech/pxx3pze.html
