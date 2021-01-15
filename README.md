@@ -58,4 +58,4 @@
 ## 參考資料
 * http://www.geog.ucsb.edu/~sgao/data/SpatialDataAnalysisPython.pdf
 * GPS vs. LBS：https://kknews.cc/zh-tw/tech/pxx3pze.html
-* file:///C:/Users/MICHEL~1/AppData/Local/Temp/7zO8AD2D2F5/LBS的原理與應用.pdf
+* https://tp2rc.tanet.edu.tw/node/80
