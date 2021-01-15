@@ -40,9 +40,12 @@
     * 服務場所的顯示。即通過手機定位，可以查找附近的各類服務場所（如酒店、餐廳以及其它特殊場所等），滿足用戶選擇的需要
     * 路線導航服務。即手機定位可以顯示出從A地至B地的最佳路線。這種服務方式已經類似於GPS的定位服務。但同樣涉及到地圖及數據更新問題，運營成本極高
     * 特殊定位服務。運營商製作出特涉的、小型化的定位終端，放在小孩、老人的身上，當他們超越規定的地理範圍時，就會向監護人發出告警，提醒引起注意
-
-
+  * 定位方法
+    * 指紋定位 (Fingerprint Positioning) 
+    * 交遞信令 (Handoff) 定位 
+    * 近場通訊 (Near Field Communication, NFC) 和射頻識別 (Radio Frequency Identification, RFID) 刷卡定位
 
 ## 參考資料
 * http://www.geog.ucsb.edu/~sgao/data/SpatialDataAnalysisPython.pdf
 * GPS vs. LBS：https://kknews.cc/zh-tw/tech/pxx3pze.html
+* file:///C:/Users/MICHEL~1/AppData/Local/Temp/7zO8AD2D2F5/LBS的原理與應用.pdf
