@@ -28,7 +28,7 @@
     * 防止車輛的丟失
     * 很多車輛被政府部門強制安裝GPS車載定位系統 (比如長途客運車輛、很多大中城市的出租汽車、或者特殊行業的特種車輛如消防車、運鈔車、危險品運輸車等等)
   * 計算方法
-    * 利用電碼的時間延遲來估算偽距
+    * 觀測3個非共面且已知位置的衛星(利用星曆來確認衛星位置)，利用電碼的時間延遲來估算偽距
 <br> 
 
 * AGPS (Assisted GPS，輔助型GPS)
@@ -56,7 +56,11 @@
     * 交遞信令 (Handoff) 定位 
     * 近場通訊 (Near Field Communication, NFC) 和射頻識別 (Radio Frequency Identification, RFID) 刷卡定位
   * 計算方法
-    * 
+    * 接收信號角度 (Angle of Arrival, AOA) 定位：利用具方向性的天線所量測的訊息，得出主動式標籤訊號的來源方向
+    * 到達時間 (Time of Arrival, TOA) 定位：
+    * 到達時差 (Time Difference Of Arrivals, TDOA)定位 
+    * 接收訊號強度定位
+<br>
 
 ## 參考資料
 * http://www.geog.ucsb.edu/~sgao/data/SpatialDataAnalysisPython.pdf
