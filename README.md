@@ -27,13 +27,13 @@
   * 業務市場
     * 防止車輛的丟失
     * 很多車輛被政府部門強制安裝GPS車載定位系統 (比如長途客運車輛、很多大中城市的出租汽車、或者特殊行業的特種車輛如消防車、運鈔車、危險品運輸車等等)
+  * 計算方法
+    * 利用電碼的時間延遲來估算偽距
 <br> 
 
 * AGPS (Assisted GPS，輔助型GPS)
   * 介於 GPS 與 LBS 之間
   * 多個數據基地台來取得不同基地台的星曆、時間和距離，再加上都卜勒效應、頻率等多餘觀測量來同步檢核數據的精準性，最後得到的參數再利用 GPS 接收器求得該點位置
-
-  
 <br> 
 
 * LBS (Location Based Service，移動位置服務)：基站定位，它是通過電信移動運營商的網絡 (如GSM網) 獲取移動終端用戶的位置信息(經緯度坐標)
@@ -54,6 +54,8 @@
     * 指紋定位 (Fingerprint Positioning) 
     * 交遞信令 (Handoff) 定位 
     * 近場通訊 (Near Field Communication, NFC) 和射頻識別 (Radio Frequency Identification, RFID) 刷卡定位
+  * 計算方法
+    * 
 
 ## 參考資料
 * http://www.geog.ucsb.edu/~sgao/data/SpatialDataAnalysisPython.pdf
