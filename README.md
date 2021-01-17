@@ -57,9 +57,13 @@
     * 近場通訊 (Near Field Communication, NFC) 和射頻識別 (Radio Frequency Identification, RFID) 刷卡定位
   * 計算方法
     * 接收信號角度 (Angle of Arrival, AOA) 定位：利用具方向性的天線所量測的訊息，得出主動式標籤訊號的來源方向
+
     * 到達時間 (Time of Arrival, TOA) 定位：
+      * 使用3個天線做定位時，主動式標籤和天線i (i=1, 2, 3...)的距離 ri 定義為 (ti-t0)ri，其中 t0 為讀取器開始發射到標籤的時間常數， t1 為天線訊號到達主動式標籤的時間，c 為光速
+      
     * 到達時差 (Time Difference Of Arrivals, TDOA)定位 
     * 接收訊號強度定位
+      * 透過訊號強度和已知的頻道衰弱模型來估計參考點與待測點的距離，根據多個距離值就可以利用類似TOA定位法原理得到待測點的位置
 <br>
 
 ## 參考資料
