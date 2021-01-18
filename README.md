@@ -72,9 +72,12 @@
       
   * 資料庫查詢
     * 細胞識別碼(Cell Id)定位：利用3組具方向性且各佔120度的天線，以基地台為中心，來搜尋巢狀內的使用者用戶位置
-      * 完整的 Cell-ID 包含 MCC(Mobile Country Code) + MNC (Mobile Network Code) + LAC (Location Area Identity，地區識別碼) + CI (Cell Identity，基地台識別碼)
-      * Location Area 由 LAI（Location Area Id）來標識，LAI 由 MCC、MNC、LAC 組成，其中 MCC 是 3 位的 Mobile Country Code，中國為460；MNC 是 2 位 Mobile Network Code，在國家內分配，中國移動為00；LAC 為 Location Area Code，在 network 內分配；可見 LAI 是全世界唯一的
+      * 完整的 Cell-ID 包含 MCC(Mobile Country Code，移動國家代碼) + MNC (Mobile Network Code，行動網路號碼) + LAC (Location Area Identity，地區識別碼) + CI (Cell Identity，基地台識別碼)
+      * Location Area 由 LAI（Location Area Id）來標識，LAI 由 MCC、MNC、LAC 組成，其中 MCC 是 3 位的 Mobile Country Code，中國為460；MNC 是 2 位 Mobile Network Code，在國家內分配，中國移動為00，中國聯通為01，中國電信為02；LAC 為 Location Area Code，在 network 內分配；可見 LAI 是全世界唯一的
       * 在一個location area中設置一個或多個基站，基站天線的信號覆蓋一定的區域，稱為cell（小區）；根據天線的不同，每個基站可能包含1個或多個cell，定向天線的 信號覆蓋一個扇形範圍，多個天線的扇區為不同的cell
+      * BSSS (Base station signal strength)：基站信號強度
+
+原文網址：https://kknews.cc/tech/j9v4v2l.html
 <br>
 
 ## 參考資料
