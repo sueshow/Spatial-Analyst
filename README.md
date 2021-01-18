@@ -72,7 +72,8 @@
       
   * 資料庫查詢
     * 細胞識別碼(Cell Id)定位：利用3組具方向性且各佔120度的天線，以基地台為中心，來搜尋巢狀內的使用者用戶位置
-      
+      * 完整的 Cell-ID 包含 MCC(Mobile Country Code) + MNC (Mobile Network Code) + LAC (Location Area Identity，地區識別碼) + CI (Cell Identity，基地台識別碼)。
+      * Location Area 由 LAI（Location Area Id）來標識，LAI 由 MCC、MNC、LAC 組成，其中 MCC 是 3 位的 Mobile Country Code，中國為460；MNC 是 2 位 Mobile Network Code，在國家內分配，中國移動為00；LAC 為 Location Area Code，在 network 內分配；可見 LAI 是全世界唯一的。
 <br>
 
 ## 參考資料
