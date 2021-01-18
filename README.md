@@ -85,3 +85,4 @@
 * 中華電信：https://tp2rc.tanet.edu.tw/node/80
 * https://huenlil.pixnet.net/blog/post/24194408
 * E-CID：https://note-on-clouds.blogspot.com/2016/10/lte-positioning-3-ecid.html
+* http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiAtJGMyaTuAhVEGaYKHUxZAngQFjAJegQIChAC&url=http%3A%2F%2Fwww.etop.org.tw%2Findex.php%3Fc%3Dadm11252%26m%3DgetReportFile%26d%3Dadm%26i%3D108613&usg=AOvVaw2T8-Iy5xaYeUXJAB9Z7ALz
