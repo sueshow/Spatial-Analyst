@@ -4,8 +4,24 @@
 * GIS (地理資訊系統)
 * GPS (全球定位系統)：讓地面位置發出電磁波後，透過已知位置的衛星接收電磁波的時間，來推算他們之間的距離，而只要有了四顆衛星接收到距離資訊並回傳後，就能夠用地面點與衛星之間的方位與距離，推算出地面點的實際座標位置
 * RS (Remote Sensing，遙測)：透過衛星影像接受到地表反射出的光與電磁波，不僅能夠單純紀錄平面的地表影像，還能夠利用這些不同波長、反射角度的光進行計算，不僅能夠計算出地表的起伏、土地利用型態、植被茂密程度等等特徵，而且，由於衛星的繞行是週期性的，又能夠在短時間獲取大範圍的資訊，比起過去的航照圖之外，更能夠長期監控同一區域的地表特徵，也能夠透過GIS來進行大尺度的空間分析
+<br>
 
+## 方法
+* 視覺化處理 (Visualization) 
+* 空間探索分析 (Exploratory Spatial Data Analysis)
+  * 工具：主題圖、直方圖、盒狀圖、散佈圖、PCP (parallel coordinate plot) 圖 (用於顯示各地區在不同時間點、或不
+同變數間的排名變化情形)、Moran’s I 散佈圖、LISA 地區自相關分析
+  * 重要概念：空間自相關 (vs 樣本獨立)、空間異質性 (vs 誤差變異) 
+* 空間計量或空間迴歸模型 (Spatial Modeling/Regression)
+  * 空間統計 (Spatial Statistic)：描述資料的空間特性
+  * 空間計量 (Spatial Econometrics)：建立迴歸模型，探討自變數與因變數間的關係或影響程度
+    * 空間變數使用消除誤差的自相關
+    * 模型估計捨棄傳統慣用的最小平方法，以最大概似法替代之
+    * 個別自變數顯著檢定，代之以Wald test
+    * 總體適合度方面常用：Log likelihood (愈大愈好)、Akaike Info Criterion (愈小愈好)、Schwarz Criterion(愈小愈好)
+<br>
 
+## 分析
 * 條件分析：在輸入圖層中設定條件，進一步去控制輸出圖層的數值。而這些條件可以利用屬性查詢，或是以在條件陳述狀態下的條件來設定。
 * 距離分析：以各樣本點為基準，藉由不同的演算法，分別計算各像元與最近樣本點之間的距離關係、配置情形及方向。
 * 密度分析：可對某個觀測現象的已知量進行分析，並依其所在位置的空間關聯性，將預測的分佈狀況分散至整個平面上的一種分析方式。
@@ -20,6 +36,7 @@
 * 重分類：為了簡化或合併某些類別而將網格中不同的像元數值歸為同一類；或是將多個像元數據按照敏感度、優先權等，藉由統一的類別級距，重新進行分類。
 * 網格計算：提供使用者在執行多項任務時，能同時針對不同的影像圖層，進行數學方程式的邏輯運算，使原本的多張影像圖層，轉變為另一張影像圖層資料。
 <br> 
+
 
 # GPS vs. LBS
 * GPS (Global Positioning System，全球定位系統)
@@ -90,4 +107,4 @@
 * 中華電信：https://tp2rc.tanet.edu.tw/node/80
 * https://huenlil.pixnet.net/blog/post/24194408
 * E-CID：https://note-on-clouds.blogspot.com/2016/10/lte-positioning-3-ecid.html
-* http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiAtJGMyaTuAhVEGaYKHUxZAngQFjAJegQIChAC&url=http%3A%2F%2Fwww.etop.org.tw%2Findex.php%3Fc%3Dadm11252%26m%3DgetReportFile%26d%3Dadm%26i%3D108613&usg=AOvVaw2T8-Iy5xaYeUXJAB9Z7ALz
+* http://homepage.ntu.edu.tw/~ntuccs/uploads/research/paper-11.pdf
