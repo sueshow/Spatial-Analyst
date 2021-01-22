@@ -108,3 +108,4 @@
 * https://huenlil.pixnet.net/blog/post/24194408
 * E-CID：https://note-on-clouds.blogspot.com/2016/10/lte-positioning-3-ecid.html
 * http://homepage.ntu.edu.tw/~ntuccs/uploads/research/paper-11.pdf
+* 空間分析模組簡介：https://www.supergeotek.com/tw/manuals/SA/ch1_1.htm
