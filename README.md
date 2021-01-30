@@ -96,7 +96,9 @@
     * 接收訊號強度定位
       * 透過訊號強度和已知的頻道衰弱模型來估計參考點與待測點的距離，根據多個距離值就可以利用類似TOA定位法原理得到待測點的位置
       * 公式
+      ```
       RSSI = 10 * log(\frac{P_r}{P_ref}) where \P_r 為接收功率(dB),\P_ref 為1mW
+      ```
       * ![接收功率(實際 vs 理論)](https://github.com/sueshow/Spatial-Analyst/blob/main/picture/%E6%8E%A5%E6%94%B6%E8%A8%8A%E8%99%9F%E5%BC%B7%E5%BA%A6%E5%AE%9A%E4%BD%8D.JPG)
   * 資料庫查詢
     * 細胞識別碼(Cell Id)定位：利用3組具方向性且各佔120度的天線，以基地台為中心，來搜尋巢狀內的使用者用戶位置
