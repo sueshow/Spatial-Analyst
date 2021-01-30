@@ -81,17 +81,23 @@
 * 定位方法
   * 全球定位系統
     * GPS
+      * [GPS](https://github.com/sueshow/Spatial-Analyst/blob/main/picture/GPS.JPG)
     * AGPS
+      * [AGPS](https://github.com/sueshow/Spatial-Analyst/blob/main/picture/AGPS.JPG)
     * LBS
   * 行動掃瞄報告  
     * 接收信號角度 (Angle of Arrival, AOA) 定位：利用具方向性的天線所量測的訊息，得出主動式標籤訊號的來源方向
+      * [AOA](https://github.com/sueshow/Spatial-Analyst/blob/main/picture/AOA.JPG)
     * 到達時間 (Time of Arrival, TOA) 定位：
       * 使用3個天線做定位時，主動式標籤和天線i (i=1, 2, 3...)的距離 ri 定義為 (ti-t0)ri，其中 t0 為讀取器開始發射到標籤的時間常數， t1 為天線訊號到達主動式標籤的時間，c 為光速
-      
+      * [TOA](https://github.com/sueshow/Spatial-Analyst/blob/main/picture/TOA.png)
     * 到達時差 (Time Difference Of Arrivals, TDOA)定位 
+      * [TDOA](https://github.com/sueshow/Spatial-Analyst/blob/main/picture/TDOA.JPG)
     * 接收訊號強度定位
       * 透過訊號強度和已知的頻道衰弱模型來估計參考點與待測點的距離，根據多個距離值就可以利用類似TOA定位法原理得到待測點的位置
-      
+      * 公式
+      RSSI = 10 * log(\frac{P_r}{P_ref}) where \P_r 為接收功率(dB),\P_ref 為1mW
+      * [接收功率(實際 vs 理論)](https://github.com/sueshow/Spatial-Analyst/blob/main/picture/%E6%8E%A5%E6%94%B6%E8%A8%8A%E8%99%9F%E5%BC%B7%E5%BA%A6%E5%AE%9A%E4%BD%8D.JPG)
   * 資料庫查詢
     * 細胞識別碼(Cell Id)定位：利用3組具方向性且各佔120度的天線，以基地台為中心，來搜尋巢狀內的使用者用戶位置
       * 完整的 Cell-ID 包含 MCC(Mobile Country Code，移動國家代碼) + MNC (Mobile Network Code，行動網路號碼) + LAC (Location Area Identity，地區識別碼) + CI (Cell Identity，基地台識別碼)
