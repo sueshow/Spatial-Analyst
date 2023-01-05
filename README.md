@@ -111,9 +111,9 @@
 
 ## 參考資料
 * http://www.geog.ucsb.edu/~sgao/data/SpatialDataAnalysisPython.pdf
-* GPS vs. LBS：https://kknews.cc/zh-tw/tech/pxx3pze.html
-* 中華電信：https://tp2rc.tanet.edu.tw/node/80
-* https://huenlil.pixnet.net/blog/post/24194408
-* E-CID：https://note-on-clouds.blogspot.com/2016/10/lte-positioning-3-ecid.html
-* http://homepage.ntu.edu.tw/~ntuccs/uploads/research/paper-11.pdf
-* 空間分析模組簡介：https://www.supergeotek.com/tw/manuals/SA/ch1_1.htm
+* [GPS vs. LBS](https://kknews.cc/zh-tw/tech/pxx3pze.html)
+* [LBS的原理（室內、室外定位）與應用](https://tp2rc.tanet.edu.tw/node/80)
+* [How does Google Map My Location work?](https://huenlil.pixnet.net/blog/post/24194408)
+* [E-CID](https://note-on-clouds.blogspot.com/2016/10/lte-positioning-3-ecid.html)
+* [中國大陸 GIS 空間資料庫的建置暨空間探索分析](http://homepage.ntu.edu.tw/~ntuccs/uploads/research/paper-11.pdf)
+* [空間分析模組簡介](https://www.supergeotek.com/tw/manuals/SA/ch1_1.htm_
